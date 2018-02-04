@@ -33,16 +33,21 @@ class UiDialog(QDialog):
     def setup_ui(self):
         self.textBrowser.setGeometry(QtCore.QRect(40, 50, 301, 221))
         self.textBrowser.setObjectName("textBrowser")
+
         self.textEdit.setGeometry(QtCore.QRect(40, 290, 301, 74))
         self.textEdit.setObjectName("textEdit")
-        self.textEdit_port.setGeometry(QtCore.QRect(360, 150, 113, 20))
+
+        self.textEdit_port.setGeometry(QtCore.QRect(360, 150, 120, 20))
         self.textEdit_port.setObjectName("textEdit_port")
-        self.textEdit_url.setGeometry(QtCore.QRect(360, 200, 113, 20))
+
+        self.textEdit_url.setGeometry(QtCore.QRect(360, 200, 120, 20))
         self.textEdit_url.setObjectName("textEdit_url")
-        self.pushButton.setGeometry(QtCore.QRect(360, 50, 113, 32))
+
+        self.pushButton.setGeometry(QtCore.QRect(360, 50, 120, 32))
         self.pushButton.setObjectName("pushButton")
         self.pushButton.clicked.connect(self.upd_sed)
-        self.pushButton_2.setGeometry(QtCore.QRect(360, 100, 113, 32))
+
+        self.pushButton_2.setGeometry(QtCore.QRect(360, 100, 120, 32))
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_2.clicked.connect(self.port_ui)
 
